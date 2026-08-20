@@ -39,6 +39,8 @@ TEST(SnapshotTestEnum, EnumStr) {
   EXPECT_STREQ(EnumStr(TestSnapshot::kEmpty), "kEmpty");
   EXPECT_STREQ(EnumStr(TestSnapshot::kSigIll), "kSigIll");
   EXPECT_STREQ(EnumStr(TestSnapshot::kSplitLock), "kSplitLock");
+  EXPECT_STREQ(EnumStr(TestSnapshot::kHasUnobservableNondeterministicInsn),
+               "kHasUnobservableNondeterministicInsn");
 }
 
 }  // namespace

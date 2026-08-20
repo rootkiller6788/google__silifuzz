@@ -173,7 +173,7 @@ inline constexpr const char* EnumNameMap<TestSnapshot>[static_cast<int>(
     "kSplitLock",
     "kSetThreeRegisters",
     "kExitGroup",
-    "kHasNondeterministicInsn",
+    "kHasUnobservableNondeterministicInsn",
     "kUalignedExitingStackPointer",
     "kFuzzingConfigNonconformance",
     "kExpensiveInstructions",
